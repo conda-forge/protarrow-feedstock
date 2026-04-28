@@ -1,5 +1,5 @@
 {% set name = "protarrow" %}
-{% set version = "0.15.0" %}
+{% set version = "0.16.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/protarrow-{{ version }}.tar.gz
-  sha256: 182e63445d0e9da40c6bcce92deb8251dea8f83104fa07ec32fc5f5738890198
+  sha256: 2d49ea390018f8c06f2f57cd45c0691658ba08930976d8f63a27cd85e1d187d6
 
 build:
   noarch: python
